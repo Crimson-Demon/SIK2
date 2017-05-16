@@ -2,7 +2,7 @@
 #define SITACKA_SERVER_DATAGRAM_H
 
 #include <string>
-#include "sitacka_server_events.h"
+#include "sitacka_server_event.h"
 
 #define SERVER_MAX_DATAGRAM_SIZE 512 // 512 bytes
 

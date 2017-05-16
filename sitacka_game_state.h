@@ -8,7 +8,7 @@
 #include <utility> // Pair
 
 #include "sitacka_player.h"
-#include "sitacka_server_events.h"
+#include "sitacka_server_event.h"
 
 typedef std::tuple<std::Pair<unsigned double, unsigned double>, unsigned double> SnakeHead;
 typedef bool** GameBoard;
