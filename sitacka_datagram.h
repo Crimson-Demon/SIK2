@@ -1,6 +1,8 @@
 #ifndef SITACKA_DATAGRAM_H
 #define SITACKA_DATAGRAM_H
 
+#include <string>
+
 // UDP
 // big endian
 

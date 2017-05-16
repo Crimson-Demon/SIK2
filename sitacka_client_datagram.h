@@ -1,6 +1,7 @@
 #ifndef SITACKA_CLIENT_DATAGRAM_H
 #define SITACKA_CLIENT_DATAGRAM_H
 
+#include <string>
 #include "sitacka_datagram.h"
 
 // UDP
