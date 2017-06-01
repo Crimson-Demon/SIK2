@@ -5,6 +5,6 @@
 
 class Client {
 
-}
+};
 
 #endif // SITACKA_CLIENT_H

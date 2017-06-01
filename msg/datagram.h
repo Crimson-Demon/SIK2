@@ -9,12 +9,11 @@
 class Datagram {
 
 public:
-
-	virtual char* serialize();
-	virtual void deserialize(char*);
+	virtual char* serialize() = 0;
+	virtual void deserialize(char*) = 0;
 
 private:
 
-}
+};
 
 #endif // SITACKA_DATAGRAM_H
