@@ -1,6 +1,7 @@
 #ifndef SITACKA_GUI_MESSAGE_H
 #define SITACKA_GUI_MESSAGE_H
 
+#include <vector>
 #include "../server/server_event.h"
 
 class GUIMessage {
@@ -11,7 +12,7 @@ public:
 };
 
 class ToGUIMessage: public GUIMessage {
-	EventData* data;
+	std::vector<EventData> data;
 public:
 	char* serialize();
 	void deserialize(char*);

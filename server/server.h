@@ -14,6 +14,7 @@
 class Server {
 
 public:
+
 	Server(unsigned int boardWidth = DFT_BOARD_WIDTH,
            unsigned int boardHeight = DFT_BOARD_HEIGHT,
            unsigned int port = DFT_PORT,
@@ -22,8 +23,6 @@ public:
            unsigned int seed
     ) : port(port), roundsPerSec(roundsPerSec), turningSpeed(turningSpeed), rng(dynamic_cast<uint64_t >(seed))
     { currentGameState = GameState(static_cast<unsigned int>(rng.rand()), boardWidth, boardHeight); }
-
-    ~Server() { }
 
     void startGame();
     void computeGameRound();

@@ -85,6 +85,8 @@ public:
 
     void updateCRC32() { }
 
+    int size() const;
+
 private:
 	std::uint32_t length; // 4 bytes unsigned integer, equals size(eventNo)+size(eventType)+size(eventData)
 	std::uint32_t eventNo; // 4 bytes unsigned integer, for each game consequtive values starting at 0
